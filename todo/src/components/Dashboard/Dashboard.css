@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.header{
+  color : white;
+  letter-spacing : 2px;
+  margin-top : 2%
+}
+
+.fire {
+    background : lightslategray;
+    height : 100vh;
+    width : 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.fire input[type="text"]{
+  height :50px;
+  width : 460px;
+  position : absolute;
+  top : 15%;
+
+}
+
+.plane{
+  font-size: 25px;
+  height :45px;
+  width :45px;
+  position : absolute;
+  top : 15%;
+  left :62%;
+  border-radius : 10px;
+  cursor : pointer;
+  border : none
+}
+
+.logout{
+  font-size: 25px;
+  height :40px;
+  width :40px;
+  position : absolute;
+  top : 5%;
+  left :95%;
+  border-radius : 10px;
+  cursor : pointer;
+  border : none
+}
+
+
+
+

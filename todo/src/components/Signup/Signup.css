@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+
+}
+.container{ 
+  height : 100vh;
+  display: flex;
+  position : relative 
+}
+
+.container::before{
+  content : '';
+  position : absolute;
+  top : 0;
+  left : 0;
+  height : 100%;
+  width : 100%;
+  background : lightslategray;
+
+}
+
+.subcontainer{
+  height : 55%;
+  width : 60%;
+  background : white;
+  transform: translate(30%,30%);
+  display: flex;
+  justify-content: space-between;
+  background : teal
+}
+.imagecontainer{
+  flex:6;
+  display: flex;
+  flex-direction : column;
+  align-items: center;
+  justify-content: space-around;
+  border-right : 1px solid black
+}
+
+.imagecontainer img{
+  height :50%;
+}
+
+.imagecontainer h1{
+  color : white;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
+
+
+.logincontainer{
+  flex : 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logincontainer p{
+  color : white;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  position : absolute;
+  top : 70%;
+  left : 69%
+}
+
+
+.logincontainer p a{
+  text-decoration: none;
+  color : white;
+  border-bottom: 1px solid black;
+}
+
+input[type="email"]{
+    height : 10%;
+    width : 70%;
+    border-radius : 10px;
+    padding : 20px;
+    font-size: 18px;
+    outline: none;
+    border : none ;
+    margin-top : 3%;
+  }
+
+input[type="text"]{
+  
+  height : 10%;
+  width : 70%;
+  border-radius : 10px;
+  padding : 20px;
+  font-size: 18px;
+  outline: none;
+  border : none 
+}
+
+input[type="password"]{
+  margin-top : 3%;
+  height : 10%;
+  width : 70%;
+  border-radius : 10px;
+  padding : 20px;
+  font-size: 18px;
+  outline: none;
+  border : none 
+}
+
+
+.button{
+  height : 10%;
+  width : 25%;
+  background : #fff;
+  outline : none;
+  border : none;
+  padding : 12px 20px;
+  margin-top : 4%;
+  border-radius : 20px;
+  cursor : pointer;
+  margin-left:-40%
+}
+
+
